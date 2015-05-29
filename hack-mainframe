@@ -4,10 +4,10 @@ var spawn = require('child_process').spawn;
 var spawnStr = 'ssh';
 var startAdding = false;
 process.argv.forEach(function(val, index, array){
-  if(startAdding){
-    spawnStr += val;
+ if(startAdding){
+    spawnStr += ' ' + val;
   } else {
-    if(val === 'index.js' || val === 'hack-mainframe') startAdding = true;
+    if(val.indexOf('hack-mainframe') > -1) startAdding = true;
   }
 });
 
