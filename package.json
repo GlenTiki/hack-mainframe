@@ -1,0 +1,21 @@
+{
+  "name": "hack-mainframe",
+  "version": "1.0.0",
+  "description": "Hack a mainframe. (a cool alias for ssh)",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thekemkid/hack-mainframe"
+  },
+  "keywords": [
+    "hack",
+    "mainframe",
+    "ssh"
+  ],
+  "author": "Glen Keane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thekemkid/hack-mainframe/issues"
+  },
+  "homepage": "https://github.com/thekemkid/hack-mainframe"
+}
