@@ -1,8 +1,8 @@
 {
   "name": "hack-mainframe",
-  "version": "1.0.0",
+  "version": "1.alpha.gamma",
   "description": "Hack a mainframe. (a cool alias for ssh)",
-  "bin": "index.js",
+  "bin": "hack-mainframe",
   "repository": {
     "type": "git",
     "url": "https://github.com/thekemkid/hack-mainframe"
