@@ -4,7 +4,6 @@ var spawn = require('child_process').spawn;
 var spawnArgs = [];
 var startAdding = false;
 process.argv.forEach(function(val, index, array){
-  console.log(val);
   if(startAdding){
     spawnArgs.push(val);
   } else {
