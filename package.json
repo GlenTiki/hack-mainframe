@@ -1,6 +1,6 @@
 {
   "name": "hack-mainframe",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hack a mainframe. (a cool alias for ssh)",
   "bin": "hack-mainframe",
   "repository": {
